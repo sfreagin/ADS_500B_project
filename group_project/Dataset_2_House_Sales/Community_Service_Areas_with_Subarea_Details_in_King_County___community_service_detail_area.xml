@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20130310</pubdate>
+                <title>Community Service Areas with Subarea Details in King County / community_service_detail_area</title>
+                <edition>One</edition>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>King County</publish>
+                </pubinfo>
+                <othercit>None</othercit>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=326cb26c6bb549529f608d7d5f40853b</onlink>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=526cdf3320c44101a8bf37487ea0047d</onlink>
+                <onlink>https://www5.kingcounty.gov/sdc/Metadata.aspx?Layer=community_service_detail</onlink>
+                <onlink>https://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterTermsAndConditions.pdf</onlink>
+                <onlink>https://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterHelpUsingKCOpenData.pdf</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Boundaries of the seven King County Unincorporated Community Service Areas (CSA). The CSAs are broken out in two ways. In West King County Areas the largest potential annexation areas (PAAs) are indicated by name in the CSA_SUBAREA_NAME field while all other PAAs have a value of &amp;quot;Other PAAs.&amp;quot; For the remaining six CSAs the CSA_SUBAREA_NAME is &amp;quot;None&amp;quot; for unincorporated areas and the name of the relevant city for incorporated areas. For analysis purposes, selecting the features where Unincorporated = 1 will provide only the features within the municipal jurisdiction of King County.</abstract>
+            <purpose>The layer shows detailed distinctions within the seven unincorporated Community Service Areas.  The CSA boundaries were created as a result of ordinances adopted by the King County Council to improve interaction between representatives of King County and residents of unincorporated King County.   The layer will allow identification and analysis of six major potential annexation areas (PAAs) within the West King County Area and the portions of the remaining six CSAs without the incorporated areas they include in the more general Community Service Areas layer.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20210617</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>Date of last update</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>Annually</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-122.54213</westbc>
+                <eastbc>-121.061526</eastbc>
+                <northbc>47.782958</northbc>
+                <southbc>47.073933</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>Not applicable</themekt>
+                <themekey>administrative_OpenData</themekey>
+                <themekey>kingcounty_opendata</themekey>
+                <themekey>admin</themekey>
+                <themekey>community_service_detail_area</themekey>
+            </theme>
+            <place>
+                <placekt>Not applicable</placekt>
+                <placekey>King County</placekey>
+                <placekey>WA</placekey>
+                <placekey>Pacific NW</placekey>
+                <placekey>Washington state</placekey>
+            </place>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>King County data are made available with the understanding that they shall be used exclusively by the obtainer or his/her authorized agents. Digital products may not be reproduced or redistributed in any form or by any means without the express written authorization of King County.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>King County GIS Center</cntorg>
+                    <cntper>Gavin Gray</cntper>
+                </cntorgp>
+                <cntpos>GIS Analyst</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>201 S Jackson St, Suite 700</address>
+                    <city>Seattle</city>
+                    <state>WA</state>
+                    <postal>98104</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-263-4493</cntvoice>
+            </cntinfo>
+        </ptcontac>
+        <browse>
+            <browsen>http://www5.kingcounty.gov/sdc/DataImages/community_service_detail.jpg</browsen>
+            <browsed>JPG File of layer overlain on base of WA counties or local cities</browsed>
+            <browset>JPG</browset>
+        </browse>
+        <datacred>King County</datacred>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
+    </idinfo>
+    <dataqual>
+        <lineage>
+            <procstep>
+                <procdesc>Last Process step from the parent layer community_service_area_area Updated West King County Areas to reflect annexations as of the processing date. A geoprocessing model has been created and is stored in TFS.</procdesc>
+                <procdate>20160816</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntperp>
+                            <cntper>Paul McCombs</cntper>
+                        </cntperp>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>This layer was created from the version of community_service_area_area that was updated by Paul McCombs in September of 2018. An identity analysis with city_area was done to identify the portions of the rural CSAs that are incorporated areas. This resulted in many insignificant polygons on the edges of all seven CSAs which were deleted. This suggests an improvement can be made on the community_service_area_area layer to better align with the latest city layer updates. Six major PAAs were identified with consultation of Ivan Miller and Cheryl Markham. The CSA_SUBAREA_NAME field was added and populated with information based on PAA_area and city_area. The Unicorporated field was added and populated with information based on city_area.</procdesc>
+                <procdate>20180927</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntperp>
+                            <cntper>Paul McCombs</cntper>
+                        </cntperp>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Edited maint.GISC.Community_ServiceArea\maint.GISC.community_service_detail_area and densified with offset of 1.001 to produce GISC.Community_ServiceArea\maint.GISC.community_service_detail_area_20210617_densifed Implemented KCCP2020 LUMA changes that affected Urban Growth Boundary due to requirement for UGA: LUMA 5.a - East Cougar Mountain; LUMA 6 - Maple Valley UGA Changes. These changes had previously been implemented in the layer after the adoption of the 2020 KC Comprehensive Plan, then rolled-back due to changes to the corresponding King County Countywide Planing Policies needing to be ratified, which happened June 1, 2021.</procdesc>
+                <procdate>20210617</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntperp>
+                            <cntper>Paul McCombs</cntper>
+                        </cntperp>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>23</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>maint.GISC.community_service_detail_area_20210617_densifed</enttypl>
+                <enttypd>area data table</enttypd>
+                <enttypds>King County</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CSA_NAME</attrlabl>
+                <attrdef>Name of Community Service Area</attrdef>
+                <attrdefs>King County</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Bear Creek/Sammamish Area</edomv>
+                                                						
+                        
+                        <edomvd>Bear Creek/Sammamish CSA</edomvd>
+                                                						
+                        
+                        <edomvds>King County</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Four Creeks/Tiger Mountain Area</edomv>
+                                                						
+                        
+                        <edomvd>Four Creeks/Tiger Mountain CSA</edomvd>
+                                                						
+                        
+                        <edomvds>King County</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Greater Maple Valley/Cedar River Area</edomv>
+                                                						
+                        
+                        <edomvd>Greater Maple Valley/Cedar River CSA</edomvd>
+                                                						
+                        
+                        <edomvds>King County</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>SE King County Area</edomv>
+                                                						
+                        
+                        <edomvd>SE King County CSA</edomvd>
+                                                						
+                        
+                        <edomvds>King County</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Snoqualmie Valley NE King County Area</edomv>
+                                                						
+                        
+                        <edomvd>Snoqualmie Valley NE King County CSA</edomvd>
+                                                						
+                        
+                        <edomvds>King County</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Vashon/Maury Island Area</edomv>
+                                                						
+                        
+                        <edomvd>Vashon/Maury Island CSA</edomvd>
+                                                						
+                        
+                        <edomvds>King County</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>West King County Areas</edomv>
+                                                						
+                        
+                        <edomvd>West King County CSA</edomvd>
+                                                						
+                        
+                        <edomvds>King County</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>King County</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CSA_SUBAREA_NAME</attrlabl>
+                <attrdef>Name of subareas: based on large PAAs for West King County Area; based on city names of incorporated areas in remaining CSAs; or "None" for unincorporated areas in remaining CSAs.</attrdef>
+                <attrdefs>Regional Planning Office and Dept. of Assessments</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Unincorporated</attrlabl>
+                <attrdef>1 for unincorporated portions of King County or 0 for incorported portions of King County and are kept in the CSAs for cartographic purposes</attrdef>
+                <attrdefs>Dept. of Assessments</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STArea()</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STLength()</attrlabl>
+            </attr>
+        </detailed>
+        <overview>
+            <eadetcit>King County</eadetcit>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>KCGIS Center</cntorg>
+                    <cntper>Cheryl Wilder</cntper>
+                </cntorgp>
+                <cntpos>Data Sales Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>201 S Jackson St, Suite 706</address>
+                    <city>Seattle</city>
+                    <state>WA</state>
+                    <postal>98104</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-263-5220</cntvoice>
+            </cntinfo>
+        </distrib>
+        <resdesc>/plibrary2/admin/shapes/polygon/community_service_detail.shp</resdesc>
+        <distliab>King County disclaims any warranty of use of any digital product or data beyond that for which it was designed.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>featureclass and shapefile</formname>
+                </digtinfo>
+            </digform>
+            <fees>Contact KCGIS Client Services for the cost of reproduction - http://www.kingcounty.gov/operations/GIS/GISData/GISDataDistribution.aspx</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20210806</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>King County GIS Center</cntorg>
+                    <cntper>Gavin Gray</cntper>
+                </cntorgp>
+                <cntpos>GIS Analyst</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>201 S Jackson St, Suite 700</address>
+                    <city>Seattle</city>
+                    <state>WA</state>
+                    <postal>98104</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-263-4493</cntvoice>
+                <cntemail>firstname.lastname@kingcounty.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
